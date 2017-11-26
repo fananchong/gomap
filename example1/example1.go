@@ -22,7 +22,7 @@ func main() {
 	m.Set("e", 2)
 	m.Set("f", 2)
 
-	// Same interface as builtin map
+	// Get key
 	if val, ok := m.Get("a"); ok == true {
 		// Found key "a"
 		fmt.Println(val)
